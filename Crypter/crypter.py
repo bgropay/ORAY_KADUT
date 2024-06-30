@@ -23,8 +23,10 @@ if platform.system() != 'Linux':
     print(f"{m}[-] {p}Program ini dirancang untuk dijalankan hanya pada sistem operasi Linux.{r}")
     exit(1)
 
+# Membersihkan layar terminal 
 os.system("clear")
 
+# Banner selamat datang di Crypter
 print(f"""{p} ___________________________{r}
 {p}< {c}Selamat datang di Crypter {p}>{r}
  {p}---------------------------{r}
